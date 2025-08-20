@@ -1,0 +1,26 @@
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 240px;
+    object-fit: fill;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+    scroll-margin-top: 150px;
+  }
+  .container {
+    margin-top: -100px ;
+    position: relative;
+    min-height: 10vh;
+    width: 100vw;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container h2{
+    margin-top: 20px;
+  }
